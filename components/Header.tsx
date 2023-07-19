@@ -119,7 +119,7 @@ const Header: React.FC<HeaderProps> = ({
             <BiSearch className="text-black" size={20} />
           </button>
         </div>
-        {/* if there is user(logged in show log ot=ut otherwise show signup or login) */}
+        {/* if there is user(logged in show logout otherwise show signup or login) */}
         <div className="flex justify-between items-center gap-x-4">
           {user ? (
             <div className="flex gap-x-4 items-center">
